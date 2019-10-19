@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.flex-parent {
+    display: flex;
+    height: 400px;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.red {
+    background: red;
+    height: 150px;
+    width: 25%;
+}
+
+.blue {
+    background: blue;
+    min-height: 150px;
+    width: 25%;
+}
+
+.green {
+    background: green;
+    min-height: 150px;
+    width: 25%;
+}
+
+.yellow {
+    background: yellow;
+    min-height: 150px;
+    width: 25%;
+}
